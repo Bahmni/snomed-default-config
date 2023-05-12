@@ -115,7 +115,7 @@
             ],
             "showVisitInfo": true,
             "showProvider": true,
-            "formNamesToFilter": [ "Test Form"],
+            "formNamesToFilter": [ "Test Form", "SNOMED Form", "SNOMED Obs Form"],
             "conceptNameDisplayFormat": "shortNamePreferred",
             "locationTagsToFilter": [],
             "programsToFilter": [],
@@ -137,6 +137,39 @@
                 "IPD",
                 "OPD"
             ]
+        }
+    },
+    "diagnosisCountMalaria": {
+        "name": "SNOMED Diagnosis Count Report for Malaria",
+        "type": "tsIntDiagnosis",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SNOMED",
+            "terminologyParentCode": "61462000",
+            "displayTerminologyCode": "false",
+            "displayGenderGroup": "true"
+        }
+    },
+    "diagnosisCountAsthma": {
+        "name": "SNOMED Diagnosis Count Report for Asthma",
+        "type": "tsIntDiagnosis",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SNOMED",
+            "terminologyParentCode": "195967001",
+            "displayTerminologyCode": "true",
+            "displayGenderGroup": "false"
+        }
+    },
+    "diagnosisCountCOVID19": {
+        "name": "SNOMED Diagnosis Count Report for COVID-19",
+        "type": "tsIntDiagnosis",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SNOMED",
+            "terminologyParentCode": "840539006",
+            "displayTerminologyCode": "true",
+            "displayGenderGroup": "true"
         }
     },
     "inpatientMorbidity": {
