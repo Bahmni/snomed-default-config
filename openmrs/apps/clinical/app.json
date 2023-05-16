@@ -152,14 +152,14 @@
             "serializeSearch": false
         },
         "cdssAuditOptions": [
-            "False positive alert",
-            "Not applicable to the patient",
-            "Already resolved by medication adjustment",
-            "Already managed by other means",
-            "Patient declined recommended action",
-            "Clinician judgment overrode recommendation",
-            "Alert triggered in error",
-            "Insufficient information to act on alert"
+            "FALSE_POSITIVE_ALERT",
+            "NOT_APPLICABLE_TO_THE_PATIENT",
+            "ALREADY_RESOLVED_BY_MEDICATION_ADJUSTMENT",
+            "ALREADY_MANAGED_BY_OTHER_MEANS",
+            "PATIENT_DECLINED_RECOMMENDED_ACTION",
+            "CLINICIAN_JUDGMENT_OVERRODE_RECOMMENDATION",
+            "ALERT_TRIGGERED_IN_ERROR",
+            "INSUFFICIENT_INFORMATION_TO_ACT_ON_ALERT"
         ]
     }
 }
