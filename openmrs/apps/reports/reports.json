@@ -96,7 +96,7 @@
      }
     },
     "formBuilderReport":{
-        "name": "Form builder form Report",
+        "name": "SNOMED Form builder form Report",
         "type": "formBuilder",
         "requiredPrivilege": "app:reports",
         "config": {
@@ -115,7 +115,7 @@
             ],
             "showVisitInfo": true,
             "showProvider": true,
-            "formNamesToFilter": [ "Test Form", "SNOMED Form", "SNOMED Obs Form"],
+            "formNamesToFilter": [ "Test Form", "SNOMED H&E Form", "SNOMED Malaria Form", "SNOMED Asthma Form", "SNOMED COVID Form", "SNOMED Accident Intake Form"],
             "conceptNameDisplayFormat": "shortNamePreferred",
             "locationTagsToFilter": [],
             "programsToFilter": [],
@@ -141,34 +141,37 @@
     },
     "diagnosisCountMalaria": {
         "name": "SNOMED Diagnosis Count Report for Malaria",
-        "type": "tsIntDiagnosis",
+        "type": "fhirTSLookupDiagnosis",
         "requiredPrivilege": "app:reports",
         "config": {
             "tsConceptSource": "SNOMED",
             "terminologyParentCode": "61462000",
             "displayTerminologyCode": "false",
+            "terminologyColumnName": "SNOMED Code",
             "displayGenderGroup": "true"
         }
     },
     "diagnosisCountAsthma": {
         "name": "SNOMED Diagnosis Count Report for Asthma",
-        "type": "tsIntDiagnosis",
+        "type": "fhirTSLookupDiagnosis",
         "requiredPrivilege": "app:reports",
         "config": {
             "tsConceptSource": "SNOMED",
             "terminologyParentCode": "195967001",
             "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
             "displayGenderGroup": "false"
         }
     },
     "diagnosisCountCOVID19": {
         "name": "SNOMED Diagnosis Count Report for COVID-19",
-        "type": "tsIntDiagnosis",
+        "type": "fhirTSLookupDiagnosis",
         "requiredPrivilege": "app:reports",
         "config": {
             "tsConceptSource": "SNOMED",
             "terminologyParentCode": "840539006",
             "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
             "displayGenderGroup": "true"
         }
     },
