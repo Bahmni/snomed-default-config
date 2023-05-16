@@ -30,7 +30,7 @@
         "allowAdhocTeleConsultation": false,
         "teleConsultationDomain": "meet.jit.si",
         "terminologyService": {
-            "system": "SNOMED",
+            "source": "SNOMED",
             "limit": 30
         },
         "networkConnectivity" : {
