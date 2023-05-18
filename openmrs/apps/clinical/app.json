@@ -151,7 +151,7 @@
             "fetchDelay": 2000,
             "serializeSearch": false
         },
-        "cdssAuditOptions": [
+        "cdssDismissalOptionsToDisplay": [
             "FALSE_POSITIVE_ALERT",
             "NOT_APPLICABLE_TO_THE_PATIENT",
             "ALREADY_RESOLVED_BY_MEDICATION_ADJUSTMENT",
