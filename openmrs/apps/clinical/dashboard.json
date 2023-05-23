@@ -284,8 +284,8 @@
                 "dashboardConfig":{  
                     "showDetailsButton":true,
                     "conceptNames":[
-                        "Chief Complaint Data SNOMED",
-                        "History of present illness",
+                        "Chief Complaint Data",
+                        "Trauma Notes, History of Present Illness",
                         "Smoking status",
                         "Consultation Images",
                         "Consultation Videos"
@@ -294,8 +294,8 @@
                 },
                 "expandedViewConfig":{  
                     "conceptNames":[
-                        "Chief Complaint Data SNOMED",
-                        "History of present illness",
+                        "Chief Complaint Data",
+                        "Trauma Notes, History of Present Illness",
                         "Smoking status",
                         "Consultation Images",
                         "Consultation Videos"
