@@ -144,3 +144,7 @@ Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Descript
 ,,SNOMED:48603004,Warfarin,,,,,,Drug,N/A,,,,,,,,,,,
 ,,SNOMED:76289007,Xylometazoline,,,,,,Drug,N/A,,,,,,,,,,,
 ,,SNOMED:6625006,Zinc sulfate,,,,,,Drug,N/A,,,,,,,,,,,
+,,SNOMED:19510001,Diphenhydramine hydrochloride,,,,,,Drug,N/A,,,,,,,,,,,
+,,,Diphenhydramine hydrochloride and Ibuprofen,,,,,,Drug,N/A,,,,,,,,,,,
+,,,Diphenhydramine hydrochloride and Paracetamol,,,,,,Drug,N/A,,,,,,,,,,,
+,,,Diphenhydramine hydrochloride and Zinc acetate,,,,,,Drug,N/A,,,,,,,,,,,
