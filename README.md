@@ -1,6 +1,6 @@
 ## Default Bahmni configuration and data. 
 ======================================================================
-This repo also includes additional configurations required for   [FHIR CDSS module](https://github.com/Bahmni/openmrs-module-cdss) and [FHIR Terminology Service Module](https://github.com/Bahmni/openmrs-module-snomed) along with other modules bundled with standard Bahmni.
+This repo also includes additional configurations required for plugin modules  [FHIR CDSS module](https://github.com/Bahmni/openmrs-module-cdss) and [FHIR Terminology Service Module](https://github.com/Bahmni/openmrs-module-snomed) that are bundled optionally with standard Bahmni. More details can be found [here](https://bahmni.atlassian.net/wiki/spaces/BAH/pages/3132686337/SNOMED+FHIR+Terminology+Server+Integration+with+Bahmni)
 
 #### Deploy
 - under server (apache) www directory
