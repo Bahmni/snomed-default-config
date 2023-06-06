@@ -124,13 +124,13 @@
         }
     },
     "chiefComplaintReport": {
-        "name": "Chief Complaint Report",
+        "name": "SNOMED Chief Complaint Report",
         "type": "obsCount",
         "requiredPrivilege": "app:reports",
         "config": {
             "ageGroupName": "All Ages",
             "conceptNames": [
-                "Chief Complaint"
+                "SNOMED Chief Complaint (coded)"
             ],
             "countOnlyClosedVisits": "false",
             "visitTypes": [
