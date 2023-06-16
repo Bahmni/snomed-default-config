@@ -199,6 +199,17 @@
             "displayGenderGroup": "true"
         }
     },
+    "diagnosisLineReportCOVID19": {
+        "name": "SNOMED Diagnosis Line Report for COVID-19",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SNOMED",
+            "terminologyParentCode": "840539006",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+        }
+    },
     "inpatientMorbidity": {
         "name": "Inpatient Morbidity",
         "type": "diagnosisCount",
