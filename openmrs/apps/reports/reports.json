@@ -207,7 +207,7 @@
             "tsConceptSource": "SNOMED",
             "terminologyParentCode": "840539006",
             "displayTerminologyCode": "true",
-            "terminologyColumnName": "SNOMED Code",
+            "terminologyColumnName": "SNOMED Code"
         }
     },
     "inpatientMorbidity": {
