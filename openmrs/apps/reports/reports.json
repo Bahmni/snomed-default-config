@@ -208,6 +208,7 @@
         "requiredPrivilege": "app:reports",
         "config": {
             "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
             "terminologyParentCode": "61462000",
             "displayTerminologyCode": "true",
             "terminologyColumnName": "SNOMED Code",
@@ -223,6 +224,7 @@
         "requiredPrivilege": "app:reports",
         "config": {
             "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
             "terminologyParentCode": "195967001",
             "displayTerminologyCode": "true",
             "terminologyColumnName": "SNOMED Code",
@@ -241,6 +243,7 @@
         "requiredPrivilege": "app:reports",
         "config": {
             "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
             "terminologyParentCode": "840539006",
             "displayTerminologyCode": "true",
             "terminologyColumnName": "SNOMED Code",
