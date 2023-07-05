@@ -84,7 +84,7 @@
      "visitAttributes": [
             "Visit Status",
             "Admission Status"
-        ],    
+        ],
      "showVisitInfo": true,
      "showProvider": true,
      "formNamesToFilter": ["Vitals"],
@@ -256,6 +256,60 @@
                 "city_village",
                 "address1"
             ]
+        }
+    },
+    "diagnosisLineReportBronchitis": {
+        "name": "SNOMED Diagnosis Line Report(ICD) for Bronchitis",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "terminologyParentCode": "32398004",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+            ],
+            "extensionClass": "org.bahmni.reports.extension.icd10.Icd10ResultSetExtension"
+        }
+    },
+    "diagnosisLineReportPeritonitis": {
+        "name": "SNOMED Diagnosis Line Report(ICD) for Peritonitis",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "terminologyParentCode": "48661000",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+                "education",
+                "class"
+            ],
+            "patientAddresses": [
+                "city_village"
+            ],
+            "extensionClass": "org.bahmni.reports.extension.icd10.Icd10ResultSetExtension"
+        }
+    },
+    "diagnosisLineReportPneumonia": {
+        "name": "SNOMED Diagnosis Line Report(ICD) for Pneumonia",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "terminologyParentCode": "421671002",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+            ],
+            "extensionClass": "org.bahmni.reports.extension.icd10.Icd10ResultSetExtension"
         }
     },
     "inpatientMorbidity": {
@@ -758,7 +812,7 @@
   "GenericLabOrderReport": {
     "name": "Lab Order Results",
     "type": "labOrders",
-    "requiredPrivilege": "app:reports",	
+    "requiredPrivilege": "app:reports",
     "config": {
       "patientAttributes": [
         "caste",
