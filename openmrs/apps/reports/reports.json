@@ -272,7 +272,7 @@
             ],
             "patientAddresses": [
             ],
-            "extensionClass": "org.bahmni.reports.extension.icd10.Icd10ResultSetExtension"
+            "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
         }
     },
     "diagnosisLineReportPeritonitis": {
@@ -292,7 +292,7 @@
             "patientAddresses": [
                 "city_village"
             ],
-            "extensionClass": "org.bahmni.reports.extension.icd10.Icd10ResultSetExtension"
+            "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
         }
     },
     "diagnosisLineReportPneumonia": {
@@ -309,24 +309,7 @@
             ],
             "patientAddresses": [
             ],
-            "extensionClass": "org.bahmni.reports.extension.icd10.Icd10ResultSetExtension"
-        }
-    },
-    "diagnosisLineReportFinding": {
-        "name": "SNOMED Diagnosis Line Report(ICD) for all Findings",
-        "type": "fhirTSLookupDiagnosisLine",
-        "requiredPrivilege": "app:reports",
-        "config": {
-            "tsConceptSource": "SCT",
-            "conceptNameDisplayFormat": "shortNamePreferred",
-            "terminologyParentCode": "404684003",
-            "displayTerminologyCode": "true",
-            "terminologyColumnName": "SNOMED Code",
-            "patientAttributes": [
-            ],
-            "patientAddresses": [
-            ],
-            "extensionClass": "org.bahmni.reports.extension.icd10.Icd10ResultSetExtension"
+            "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
         }
     },
     "inpatientMorbidity": {
