@@ -99,11 +99,6 @@
                 "showDetailsButton":true,
                 "displayOrder":5
             },
-            "programs":{  
-                "translationKey":"DASHBOARD_TITLE_PROGRAMS_KEY",
-                "type":"programs",
-                "displayOrder":10
-            },
             "radiologyOrders":{  
                 "orderType":"Radiology Order",
                 "type":"ordersControl",
@@ -123,16 +118,6 @@
                 "displayOrder":20,
                 "dashboardConfig":{
                     "conceptNames":[],
-                    "numberOfVisits":4
-                }
-            },
-            "pacs":{  
-                "orderType":"Radiology Order",
-                "type":"pacsOrders",
-                "translationKey":"DASHBOARD_TITLE_PACS_KEY",
-                "displayOrder":8,
-                "dashboardConfig":{  
-                    "pacsImageUrl":"/oviyam2/oviyam?patientID={{patientID}}&accessionNumber={{orderNumber}}",
                     "numberOfVisits":4
                 }
             },
