@@ -258,7 +258,7 @@
             ]
         }
     },
-    "diagnosisLineReportBronchitis": {
+    "diagnosisICDLineReportBronchitis": {
         "name": "SNOMED Diagnosis Line Report(ICD) for Bronchitis",
         "type": "fhirTSLookupDiagnosisLine",
         "requiredPrivilege": "app:reports",
@@ -275,7 +275,7 @@
             "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
         }
     },
-    "diagnosisLineReportPeritonitis": {
+    "diagnosisICDLineReportPeritonitis": {
         "name": "SNOMED Diagnosis Line Report(ICD) for Peritonitis",
         "type": "fhirTSLookupDiagnosisLine",
         "requiredPrivilege": "app:reports",
@@ -295,7 +295,7 @@
             "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
         }
     },
-    "diagnosisLineReportPneumonia": {
+    "diagnosisICDLineReportPneumonia": {
         "name": "SNOMED Diagnosis Line Report(ICD) for Pneumonia",
         "type": "fhirTSLookupDiagnosisLine",
         "requiredPrivilege": "app:reports",
@@ -312,7 +312,7 @@
             "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
         }
     },
-    "diagnosisLineReportExcessiveGrowthRate": {
+    "diagnosisICDLineReportExcessiveGrowthRate": {
         "name": "SNOMED Diagnosis Line Report(ICD) for Excessive Growth Rate",
         "type": "fhirTSLookupDiagnosisLine",
         "requiredPrivilege": "app:reports",
@@ -329,7 +329,7 @@
             "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
         }
     },
-    "diagnosisLineReportDietaryFinding": {
+    "diagnosisICDLineReportDietaryFinding": {
         "name": "SNOMED Diagnosis Line Report(ICD) for Dietary Finding",
         "type": "fhirTSLookupDiagnosisLine",
         "requiredPrivilege": "app:reports",
@@ -346,7 +346,7 @@
             "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
         }
     },
-    "diagnosisLineReportCOVID19": {
+    "diagnosisICDLineReportCOVID19": {
         "name": "SNOMED Diagnosis Line Report(ICD) for COVID-19",
         "type": "fhirTSLookupDiagnosisLine",
         "requiredPrivilege": "app:reports",
