@@ -312,6 +312,57 @@
             "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
         }
     },
+    "diagnosisLineReportExcessiveGrowthRate": {
+        "name": "SNOMED Diagnosis Line Report(ICD) for Excessive Growth Rate",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "terminologyParentCode": "440311000124109",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+            ],
+            "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
+        }
+    },
+    "diagnosisLineReportDietaryFinding": {
+        "name": "SNOMED Diagnosis Line Report(ICD) for Dietary Finding",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "terminologyParentCode": "41829006",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+            ],
+            "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
+        }
+    },
+    "diagnosisLineReportCOVID19": {
+        "name": "SNOMED Diagnosis Line Report(ICD) for COVID-19",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "terminologyParentCode": "840539006",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+            ],
+            "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
+        }
+    },
     "inpatientMorbidity": {
         "name": "Inpatient Morbidity",
         "type": "diagnosisCount",
